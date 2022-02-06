@@ -5,10 +5,16 @@
 @import "components/status-bar.css";
 @import "Components/navigation-bar.css";
 @import "Components/screen-header.css";
+@import "Components/user-component.css";
+@import "Components/badge.css";
 /*Screenshots*/
 @import "screens/login.css";
 @import "screens/friends.css";
 body{
     color:#2e363e;
     font-family: 'Open Sans', sans-serif;
+}
+
+.main-screen{
+    padding : 0px var(--horizonal-space);
 }
